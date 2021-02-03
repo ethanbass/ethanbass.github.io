@@ -1,0 +1,11 @@
+name: "personal-website"
+output_dir: "."
+navbar:
+  title: "Ethan Bass"
+  right:
+    - text: "About"
+      href: about.html
+    - text: "Research"
+      href: Research.html
+    - text: "CV"
+      href: CV.html
