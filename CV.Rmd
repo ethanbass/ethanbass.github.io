@@ -1,0 +1,92 @@
+---
+title: "CV"
+author: "Ethan Bass"
+date: "2/2/2021"
+output: html_document
+
+jobtitle: "PhD Candidate, Cornell University"
+address: "Ithaca, NY"
+fontawesome: yes
+email: eb565@cornell.edu
+#web:
+#github: jamjulie
+#twitter: jamjuliejung
+#phone: "646-785-9575"
+updated: yes
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: black
+urlcolor: blue
+---
+
+## EDUCATION
+
+### PhD candidate in Ecology and Evolutionary Biology
+Cornell University, Ithaca, NY.  
+Advisor – Dr. Andre Kessler
+
+
+### Bachelors of Science in Chemistry (honors), 2013  
+The University of Chicago, Chicago, IL.
+
+## PUBLICATIONS
+
+### Refereed Journal Publications:
+
+1. Mutyambai DM, **Bass E**, Luttermoser T, Poveda K, Midega CAO, Khan ZR, Kessler A (2019) More Than “Push” and “Pull”? Plant-Soil Feedbacks of Maize Companion Cropping Increase Chemical Plant Defenses Against Herbivores. *Frontiers in Ecology and Evolution*, 7:217. https://doi.org/10.3389/fevo.2019.00217
+
+2. Jang S, Gornicki P, Marjanovic J, **Bass E**, Iurcotta TP, Rodriguez P, Austin J, Haselkorn R (2018) Activity and structure of human acetyl-CoA carboxylase targeted by a specific inhibitor. *FEBS Letters*, 592(12):2048–2058. https://doi.org/10.1002/1873-3468.13097
+
+3. Whitehead SR, **Bass E**, Corrigan A, Baudoin A, Kessler A, Katja P. Phytochemical diversity defends against diverse consumers. *(In review)*
+
+4. Howard M, **Bass E**, Chauta A, Mutyambai D, Kessler A. Integrating plant-plant communication and rhizosphere microbial dynamics: ecological and evolutionary implications and a call for experimental rigor. *(In review)*
+
+## GRANTS RECEIVED
+
+Variation in the composition of polyacetylenes in lettuce (Lactuca sativa) and their contribution to resistance against a common fungal pathogen — *Botrytis cinerea*.  
+Andrew W. Mellon Research Grant. $1000. \hfill\ [(April, 2020 - April 2021)]{style="float:right"}  
+
+Integrating the effects of herbivory and plant-soil feedbacks on plant coexistence.  
+Cornell Atkinson Center's Sustainable Biodiversity Fund. $7867. \hfill\ [(January, 2020 - January 2022)]{style="float:right"}  
+
+## TEACHING AND OUTREACH
+**Graduate Teaching Assistant**, Cornell University, Ithaca, NY
+BIOEE 3690: Chemical Ecology \hfill\ [Spring 2021]{style="float:right"}  
+BIOEE 1780: Evolutionary Biology and Diversity \hfill\ [Fall 2020]{style="float:right"}  
+BIOG 1440: Comparative Physiology \hfill\ [Spring 2020]{style="float:right"}  
+BIOEE 3611: Field Ecology \hfill\ [Fall 2019]{style="float:right"}  
+BIOEE 1780: Evolutionary Biology and Diversity (Writing in the Majors) \hfill\ [Spring 2019]{style="float:right"}
+BIOEE 1610: Ecology and the Environment \hfill\ [Fall 2018]{style="float:right"}  
+BIOMG 2801: Laboratory in Genetics and Genomics \hfill\ [Spring 2018, Fall 2017]{style="float:right"}  
+
+
+**GreenCorps Youth Instructor**, WRD Environmental, Chicago, IL\hfill\ [June - August 2016]{style="float:right"}
+
+Volunteer, [Cornell Diversity Preview Weekend](http://www.cornelldpw.org/)  
+Cornell Department of Ecology and Evolutionary Biology
+
+Volunteer, [Insectapalooza](https://entomology.cals.cornell.edu/news-events/insectapalooza/)  
+Cornell Entomology Department, Ithaca, NY
+
+
+## RESEARCH AND PROFESSIONAL EXPERIENCE
+
+Laboratory Technician, Cornell University, Ithaca, NY  
+*September 2016 to August 2017*  
+*Advisor: Dr. Katja Poveda*  
+
+Spawn-Making Intern, Aloha Medicinals Incorporated, Carson City, NV  
+*January 2015*  
+
+Ecological Restoration Manager, Betcher Heritage Farm Trust, Red Wing, MN  
+*April to September 2015*  
+
+Quality Control Chemist, Cedar Concepts Corporation, Chicago, IL  
+*October 2013 to September 2014*  
+
+Research Assistant, University of Chicago, Chicago, IL  
+*December 2011 - August 2013*  
+*Advisors: Dr. Piotr Gornicki, Dr. Robert Haselkorn*
+

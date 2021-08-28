@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Ethan Bass" />
+
+
+<title>CV</title>
+
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ethan Bass</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="Research.html">Research</a>
+</li>
+<li>
+  <a href="CV.html">CV</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">CV</h1>
+<h4 class="author">Ethan Bass</h4>
+<h4 class="date">2/2/2021</h4>
+
+</div>
+
+
+<div id="education" class="section level2">
+<h2>EDUCATION</h2>
+<div id="phd-candidate-in-ecology-and-evolutionary-biology" class="section level3">
+<h3>PhD candidate in Ecology and Evolutionary Biology</h3>
+<p>Cornell University, Ithaca, NY.<br />
+Advisor – Dr. Andre Kessler</p>
+</div>
+<div id="bachelors-of-science-in-chemistry-honors-2013" class="section level3">
+<h3>Bachelors of Science in Chemistry (honors), 2013</h3>
+<p>The University of Chicago, Chicago, IL.</p>
+</div>
+</div>
+<div id="publications" class="section level2">
+<h2>PUBLICATIONS</h2>
+<div id="refereed-journal-publications" class="section level3">
+<h3>Refereed Journal Publications:</h3>
+<ol style="list-style-type: decimal">
+<li><p>Mutyambai DM, <strong>Bass E</strong>, Luttermoser T, Poveda K, Midega CAO, Khan ZR, Kessler A (2019) More Than “Push” and “Pull”? Plant-Soil Feedbacks of Maize Companion Cropping Increase Chemical Plant Defenses Against Herbivores. <em>Frontiers in Ecology and Evolution</em>, 7:217. <a href="https://doi.org/10.3389/fevo.2019.00217" class="uri">https://doi.org/10.3389/fevo.2019.00217</a></p></li>
+<li><p>Jang S, Gornicki P, Marjanovic J, <strong>Bass E</strong>, Iurcotta TP, Rodriguez P, Austin J, Haselkorn R (2018) Activity and structure of human acetyl-CoA carboxylase targeted by a specific inhibitor. <em>FEBS Letters</em>, 592(12):2048–2058. <a href="https://doi.org/10.1002/1873-3468.13097" class="uri">https://doi.org/10.1002/1873-3468.13097</a></p></li>
+<li><p>Whitehead SR, <strong>Bass E</strong>, Corrigan A, Baudoin A, Kessler A, Katja P. Phytochemical diversity defends against diverse consumers. <em>(In review)</em></p></li>
+<li><p>Howard M, <strong>Bass E</strong>, Chauta A, Mutyambai D, Kessler A. Integrating plant-plant communication and rhizosphere microbial dynamics: ecological and evolutionary implications and a call for experimental rigor. <em>(In review)</em></p></li>
+</ol>
+</div>
+</div>
+<div id="grants-received" class="section level2">
+<h2>GRANTS RECEIVED</h2>
+<p>Variation in the composition of polyacetylenes in lettuce (Lactuca sativa) and their contribution to resistance against a common fungal pathogen — <em>Botrytis cinerea</em>.<br />
+Andrew W. Mellon Research Grant. $1000.  <span style="float:right">(April, 2020 - April 2021)</span></p>
+<p>Integrating the effects of herbivory and plant-soil feedbacks on plant coexistence.<br />
+Cornell Atkinson Center’s Sustainable Biodiversity Fund. $7867.  <span style="float:right">(January, 2020 - January 2022)</span></p>
+</div>
+<div id="teaching-and-outreach" class="section level2">
+<h2>TEACHING AND OUTREACH</h2>
+<p><strong>Graduate Teaching Assistant</strong>, Cornell University, Ithaca, NY BIOEE 3690: Chemical Ecology  <span style="float:right">Spring 2021</span><br />
+BIOEE 1780: Evolutionary Biology and Diversity  <span style="float:right">Fall 2020</span><br />
+BIOG 1440: Comparative Physiology  <span style="float:right">Spring 2020</span><br />
+BIOEE 3611: Field Ecology  <span style="float:right">Fall 2019</span><br />
+BIOEE 1780: Evolutionary Biology and Diversity (Writing in the Majors)  <span style="float:right">Spring 2019</span> BIOEE 1610: Ecology and the Environment  <span style="float:right">Fall 2018</span><br />
+BIOMG 2801: Laboratory in Genetics and Genomics  <span style="float:right">Spring 2018, Fall 2017</span></p>
+<p><strong>GreenCorps Youth Instructor</strong>, WRD Environmental, Chicago, IL <span style="float:right">June - August 2016</span></p>
+<p>Volunteer, <a href="http://www.cornelldpw.org/">Cornell Diversity Preview Weekend</a><br />
+Cornell Department of Ecology and Evolutionary Biology</p>
+<p>Volunteer, <a href="https://entomology.cals.cornell.edu/news-events/insectapalooza/">Insectapalooza</a><br />
+Cornell Entomology Department, Ithaca, NY</p>
+</div>
+<div id="research-and-professional-experience" class="section level2">
+<h2>RESEARCH AND PROFESSIONAL EXPERIENCE</h2>
+<p>Laboratory Technician, Cornell University, Ithaca, NY<br />
+<em>September 2016 to August 2017</em><br />
+<em>Advisor: Dr. Katja Poveda</em></p>
+<p>Spawn-Making Intern, Aloha Medicinals Incorporated, Carson City, NV<br />
+<em>January 2015</em></p>
+<p>Ecological Restoration Manager, Betcher Heritage Farm Trust, Red Wing, MN<br />
+<em>April to September 2015</em></p>
+<p>Quality Control Chemist, Cedar Concepts Corporation, Chicago, IL<br />
+<em>October 2013 to September 2014</em></p>
+<p>Research Assistant, University of Chicago, Chicago, IL<br />
+<em>December 2011 - August 2013</em><br />
+<em>Advisors: Dr. Piotr Gornicki, Dr. Robert Haselkorn</em></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
