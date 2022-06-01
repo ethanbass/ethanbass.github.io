@@ -2035,7 +2035,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #42c0ff;
 				}
 
 /* Form */
@@ -2510,7 +2510,7 @@ input, select, textarea {
 	#banner {
 		background: #fff;
 		text-align: center;
-		padding: 4.5em 0 4.5em 0;
+		padding: 0.5em 0 4.5em 0;
 		margin-bottom: 0;
 	}
 
@@ -2559,14 +2559,14 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 6em 0 6em 0;
-		background: #2b252c;
-		color: #fff;
+		padding: 3em 0 3em 0;
+		background: #fff1ab;
+		color: #2b252c;
 	}
 
 		#footer .icon.circled {
-			background: #fff;
-			color: #2b252c;
+			background: #2b252c;
+			color: #fff1ab;
 		}
 
 		#footer header {
