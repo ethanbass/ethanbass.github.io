@@ -2560,7 +2560,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 3em 0 3em 0;
-		background: #fff1ab;
+		background: #fff1ab; /* footer background */
 		color: #2b252c;
 	}
 
