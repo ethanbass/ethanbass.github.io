@@ -2388,7 +2388,7 @@ input, select, textarea {
 }
 
 /* Nav */
-.navbar {
+#nav {
 	height: 5.5em;
     display: flex;
     justify-content: space-between;
