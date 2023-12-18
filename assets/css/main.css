@@ -2745,7 +2745,9 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-
+			 .site-title {
+     		   display: none;
+    		}
 			html, body {
 				overflow-x: hidden;
 			}
